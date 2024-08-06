@@ -1,0 +1,54 @@
+.project-details {
+    padding: 20px;
+  }
+  
+  .project-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .project-subtitle {
+    margin-top: 10px;
+    color: #666;
+  }
+  
+  .project-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .iframe-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .project-info {
+    flex: 1;
+  }
+  
+  .info-section {
+    margin-bottom: 10px;
+  }
+  
+  .info-title {
+    font-weight: bold;
+  }
+  
+  .info-text {
+    color: #007bff;
+  }
+  
+  .build-logs {
+    margin-top: 20px;
+  }
+  
+  .terminal-logs {
+    background-color: #000;
+    color: rgb(183, 190, 183);
+    padding: 10px;
+    font-family: monospace;
+    white-space: pre-wrap; /* Preserve whitespace and line breaks */
+    text-align: left; /* Align text to the left */
+  }
+  
