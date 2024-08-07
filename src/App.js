@@ -1,5 +1,10 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  useLocation,
+} from "react-router-dom";
 import axios from "axios";
 import Header from "./Header";
 import SearchBar from "./SearchBar";
@@ -8,7 +13,7 @@ import DeployedCard from "./DeployedCard";
 import ProjectDetails from "./ProjectDetails"; // Import the new component
 import { deployedData } from "../src/data/deployedData"; // Import the deployed data
 
-function App() {
+const App = () => {
   const [repoUrl, setRepoUrl] = useState("");
   const [deployUrl, setDeployUrl] = useState("");
   const [deployLogs, setDeployLogs] = useState("");
@@ -63,11 +68,18 @@ function App() {
     setSearchTerm(term);
   };
 
+  const LocationAwareSearchBar = () => {
+    const location = useLocation();
+    return location.pathname === "/" ? (
+      <SearchBar searchTerm={searchTerm} onSearch={handleSearch} />
+    ) : null;
+  };
+
   return (
     <Router>
       <div className="App">
         <Header onConnectWallet={handleConnectWallet} address={address} />
-        <SearchBar searchTerm={searchTerm} onSearch={handleSearch} />
+        <LocationAwareSearchBar />
         <Routes>
           <Route
             path="/"
@@ -110,6 +122,6 @@ function App() {
       </div>
     </Router>
   );
-}
+};
 
 export default App;
