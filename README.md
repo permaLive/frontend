@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# AlwaysOn
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**AlwaysOn**, ultimate development tool for Arweave and AO, seamlessly blending a user-friendly UX with powerful deployment features. With GitHub OAuth integration, users can easily log in and access their repositories. The app offers a streamlined deployment interface, allowing users to deploy their projects to the Permaweb with a single click, ensuring their applications are always up-to-date through continuous deployment.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **One-Click Deployment**: Easily deploy your web application with a single click, eliminating the hassle of manual deployment steps.
 
-### `npm start`
+- **Permanent Hosting**: Deploy once and enjoy the peace of mind that your website will be live indefinitely. No need for recurring setup or maintenance.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Custom Ar-Io Domains**: Configure and manage your own custom Ar-Io domains, giving your application a unique and branded URL.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Build Logs**: Access detailed build logs to monitor the status and progress of your deployments. Troubleshoot issues with comprehensive log data.
 
-### `npm test`
+- **Messaging Queues**: Utilize messaging queues for efficient, reliable and scalable deployment process.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Continuous Integration and Development**: Integrate with GitHub Actions for continuous integration and development. Automate your workflows and keep your projects up-to-date with ease.
 
-### `npm run build`
+- **File Uploads**: Upload files and incorporate them into your web applications. Manage your assets and resources effectively.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Video Demonstraction
+https://youtu.be/q7A3j9wsAI4
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Note: Github Integration and custom domain configurations are partially integrated as of now**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
-### `npm run eject`
+<img width="1440" alt="Screenshot 2024-08-07 at 5 25 21 PM" src="https://github.com/user-attachments/assets/ced3cd6f-18fe-4f82-a7a3-b785d0f2e95c">
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img width="1440" alt="Screenshot 2024-08-07 at 5 22 20 PM" src="https://github.com/user-attachments/assets/1b9b4c3b-e74c-4277-bc52-18a05c963bd9">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<img width="1440" alt="Screenshot 2024-08-07 at 5 23 11 PM" src="https://github.com/user-attachments/assets/36670654-df82-44bf-a50c-fc30bb42035b">
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+----------------------------------------------------------------------------------------------------------------------------------------------------
